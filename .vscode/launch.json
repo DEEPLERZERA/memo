@@ -1,6 +1,7 @@
 {
+  //give the version of the project
   "version": "0.3.0",
-  "configurations": [
+  "configurations": [  //give the configurations of the side of DEV
     {
       "name": "DEV - App",
       "type": "dart",
@@ -11,7 +12,7 @@
       ]
     },
     {
-      "name": "PROFILE - App",
+      "name": "PROFILE - App",    //give the configurations of the side of USER
       "type": "dart",
       "request": "launch",
       "flutterMode": "profile",
@@ -20,8 +21,8 @@
         "--dart-define=ENV=DEV"
       ]
     },
-    {
-      "name": "PROD - App",
+    {  
+      "name": "PROD - App",   //give the configuration of the side of PROD
       "type": "dart",
       "request": "launch",
       "program": "lib/main.dart",
